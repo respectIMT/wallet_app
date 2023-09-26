@@ -1,0 +1,105 @@
+name: wallet_app
+description: A new Flutter project.
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.6 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+
+  
+  cupertino_icons: ^1.0.2
+
+  # state management
+  provider: ^6.0.5
+
+
+  # UI design
+  flutter_svg: ^1.1.6
+  # modal_bottom_sheet: ^2.1.2
+  # lottie: ^2.2.0
+  # pull_to_refresh: ^2.0.0
+  # gap: ^2.0.1
+  # pinput: ^2.2.16
+  # dotted_line: ^3.1.0
+  # syncfusion_flutter_sliders: ^21.1.38
+  # dotted_border: ^2.0.0+3
+  # image_picker: ^0.8.7+2
+  # salomon_bottom_bar: ^3.3.2
+  # awesome_dialog: ^3.1.0
+  # flutter_quill: ^6.4.4
+
+  # Helper
+  flutter_screenutil: ^5.6.1
+  # dartz: ^0.10.1
+  # meta: ^1.8.0
+  # mask_text_input_formatter: ^2.4.0
+  # freezed_annotation: ^2.2.0
+  # path_provider: ^2.0.12
+  # path: ^1.8.2
+  # url_launcher: ^6.1.9
+  # get_it: ^7.2.0
+  # xml: ^6.0.0
+  dropdown_search: ^3.0.1
+  # flutter_rounded_date_picker: ^3.0.2
+  # flutter_easyloading: ^3.0.5
+  # local_auth: ^2.1.6
+
+
+
+  # Local
+  hive: ^2.2.3
+  hive_flutter: ^1.1.0
+
+
+  #Animation
+
+
+  # Network
+  http: ^1.1.0
+  
+
+  # Localization
+  easy_localization: ^3.0.2
+
+
+  # Navigation
+  go_router: ^10.0.0
+
+
+
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  
+  flutter_lints: ^2.0.0
+
+flutter:
+
+  
+  uses-material-design: true
+
+  assets:
+    - assets/images/
+    - assets/icons/
+
+
+
+  # fonts:
+  #   - family: Schyler
+  #     fonts:
+  #       - asset: fonts/Schyler-Regular.ttf
+  #       - asset: fonts/Schyler-Italic.ttf
+  #         style: italic
+  #   - family: Trajan Pro
+  #     fonts:
+  #       - asset: fonts/TrajanPro.ttf
+  #       - asset: fonts/TrajanPro_Bold.ttf
+  #         weight: 700
