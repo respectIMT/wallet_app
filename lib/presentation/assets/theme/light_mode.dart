@@ -1,10 +1,10 @@
-// import 'dart:ui';
+import 'dart:ui';
 
-// import 'base_colors.dart';
+import 'base_colors.dart';
 
-// class LightModeColors extends BaseColors {
-//   const LightModeColors();
+class LightModeColors extends BaseColors {
+  const LightModeColors();
 
-//   @override
-//   Color get background => const Color.fromRGBO(255, 255, 255, 1);
-// }
+  @override
+  Color get background => const Color.fromRGBO(255, 255, 255, 1);
+}
