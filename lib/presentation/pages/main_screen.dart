@@ -15,9 +15,7 @@ class MainScreen extends StatelessWidget {
         builder: (context, provider, child) => Scaffold(
           body: Column(
             children: [
-              Expanded(
-                child: provider.pages[provider.currentPage],
-              ),
+              Expanded(child: provider.pages[provider.currentPage]),
             ],
           ),
           bottomNavigationBar: BottomNavigationBar(

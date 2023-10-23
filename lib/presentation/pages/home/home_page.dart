@@ -12,7 +12,7 @@ class HomePage extends StatelessWidget {
         mainAxisAlignment: MainAxisAlignment.spaceBetween,
         children: [
           Container(
-            color: Colors.amber,
+            color: Colors.amber.withOpacity(0.2),
             padding: EdgeInsets.symmetric(horizontal: 20, vertical: 20),
             margin: EdgeInsets.symmetric(horizontal: 20, vertical: 20),
             width: double.maxFinite,
@@ -20,12 +20,12 @@ class HomePage extends StatelessWidget {
           ),
           Expanded(
               child: Container(
-            color: Colors.red,
+            color: Colors.red.withOpacity(0.2),
             padding: EdgeInsets.symmetric(horizontal: 20, vertical: 20),
             margin: EdgeInsets.symmetric(horizontal: 20, vertical: 20),
           )),
           Container(
-            color: Colors.amber,
+            color: Colors.amber.withOpacity(0.2),
             padding: EdgeInsets.symmetric(horizontal: 20, vertical: 20),
             margin: EdgeInsets.symmetric(horizontal: 20, vertical: 20),
             width: double.maxFinite,

@@ -10,23 +10,31 @@ class Routes implements Coordinate {
   final String name;
   final String path;
 
-  static const home = Routes._(
+  static const homePage = Routes._(
     name: 'home_page',
     path: '/home',
   );
-  static const splashscreen = Routes._(
+  static const splashScreen = Routes._(
     name: 'splash_page',
     path: '/splash',
   );
-   static const security = Routes._(
+  static const securityPage = Routes._(
     name: 'security_page',
     path: '/security',
   );
-  static const registration = Routes._(
+  static const registrationPage = Routes._(
     name: 'registration_page',
     path: '/registration',
   );
-  static const addexpenses = Routes._(
+  static const outlayPage = Routes._(
+    name: 'add_expenses_page',
+    path: '/sadd_expenses',
+  );
+  static const profitpage = Routes._(
+    name: 'add_expenses_page',
+    path: '/sadd_expenses',
+  );
+  static const settingPage = Routes._(
     name: 'add_expenses_page',
     path: '/sadd_expenses',
   );
