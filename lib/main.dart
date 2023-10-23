@@ -1,9 +1,9 @@
 // ignore_for_file: unnecessary_import
 
-import 'package:flutter/material.dart';
-import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:hive/hive.dart';
+import 'package:flutter/material.dart';
 import 'package:hive_flutter/adapters.dart';
+import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:wallet_app/presentation/pages/main_screen.dart';
 
 void main() async {
@@ -21,16 +21,17 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-        debugShowCheckedModeBanner: false,
-        home: SafeArea(
-          child: ScreenUtilInit(
-            minTextAdapt: true,
-            splitScreenMode: true,
-            builder: (context, child) => const MaterialApp(
-              debugShowCheckedModeBanner: false,
-              home: MainScreen(),
-            ),
+      debugShowCheckedModeBanner: false,
+      home: SafeArea(
+        child: ScreenUtilInit(
+          minTextAdapt: true,
+          splitScreenMode: true,
+          builder: (context, child) => const MaterialApp(
+            debugShowCheckedModeBanner: false,
+            home: MainScreen(),
           ),
-        ));
+        ),
+      ),
+    );
   }
 }
