@@ -31,7 +31,7 @@ dependencies:
   # image_picker: ^0.8.7+2
   # salomon_bottom_bar: ^3.3.2
   # awesome_dialog: ^3.1.0
-  # flutter_quill: ^6.4.4
+
 
   # Helper
   flutter_screenutil: ^5.6.1
@@ -49,6 +49,7 @@ dependencies:
   flutter_easyloading: ^3.0.5
   # local_auth: ^2.1.6
   requests_inspector: ^2.3.5
+  google_fonts: ^5.0.0
 
 
 

@@ -1,4 +1,4 @@
-// // Created by Muhammed Tolkinov on 14-October-2022
+// Created by Muhammed Tolkinov on 14-October-2022
 
 import 'dart:ui';
 

@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_svg/svg.dart';
 import 'package:provider/provider.dart';
 import 'package:wallet_app/application/screen_manager/screen_manager.dart';
-import '../assets/res/app_icons.dart';
+import 'package:wallet_app/presentation/assets/asset_index.dart';
 
 class MainScreen extends StatelessWidget {
   const MainScreen({super.key});
@@ -26,39 +26,42 @@ class MainScreen extends StatelessWidget {
                   activeIcon: SvgPicture.asset(
                     AppIcons.home,
                     height: 25,
-                    color: Colors.green,
+                    color: AppTheme.colors.primary,
                   ),
                   icon: SvgPicture.asset(
                     AppIcons.home,
                     height: 25,
                     color: Colors.black,
                   ),
-                  backgroundColor: Colors.white,
+                  backgroundColor: AppTheme.colors.secondary,
                   label: ""),
               BottomNavigationBarItem(
                   activeIcon: SvgPicture.asset(
-                    AppIcons.up,
+                    AppIcons.outlay,
                     height: 25,
+                    color: AppTheme.colors.primary,
                   ),
                   icon: SvgPicture.asset(
-                    AppIcons.up,
+                    AppIcons.outlay,
                     height: 25,
                   ),
-                  backgroundColor: Colors.white,
+                  backgroundColor: AppTheme.colors.secondary,
                   label: ""),
               BottomNavigationBarItem(
                   activeIcon: SvgPicture.asset(
-                    AppIcons.more,
+                    AppIcons.profit,
                     height: 25,
+                    color: AppTheme.colors.primary,
                   ),
                   icon: SvgPicture.asset(
-                    AppIcons.more,
+                    AppIcons.profit,
                     height: 25,
                   ),
-                  backgroundColor: Colors.white,
+                  backgroundColor: AppTheme.colors.secondary,
                   label: ""),
               BottomNavigationBarItem(
                 activeIcon: SvgPicture.asset(
+                  color: AppTheme.colors.primary,
                   AppIcons.settings,
                   height: 25,
                 ),
@@ -66,7 +69,7 @@ class MainScreen extends StatelessWidget {
                   AppIcons.settings,
                   height: 25,
                 ),
-                backgroundColor: Colors.white,
+                backgroundColor: AppTheme.colors.secondary,
                 label: "",
               ),
             ],

@@ -4,8 +4,8 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
-import 'package:wallet_app/presentation/assets/theme/light_mode.dart';
 import 'base_colors.dart';
+import 'light_mode.dart';
 
 class AppTheme {
   static late BaseColors colors;
