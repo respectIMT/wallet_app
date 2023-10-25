@@ -21,6 +21,8 @@ class MainScreen extends StatelessWidget {
           bottomNavigationBar: BottomNavigationBar(
             currentIndex: provider.currentPage,
             onTap: provider.ontap,
+            elevation: 0,
+            enableFeedback: false,
             items: [
               BottomNavigationBarItem(
                   activeIcon: SvgPicture.asset(

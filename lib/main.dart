@@ -2,7 +2,6 @@ import 'dart:async';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
-import 'package:provider/provider.dart';
 import 'package:wallet_app/infrastructure/common/app_init.dart';
 import 'package:wallet_app/presentation/app_manager.dart';
 

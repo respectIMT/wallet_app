@@ -1,37 +1,18 @@
-// ignore_for_file: prefer_const_constructors
-
 import 'package:flutter/material.dart';
+import 'package:provider/provider.dart';
+import 'package:wallet_app/application/home_provider/home_provider.dart';
 
 class HomePage extends StatelessWidget {
   const HomePage({super.key});
 
   @override
   Widget build(BuildContext context) {
-    return Scaffold(
-      body: Column(
-        mainAxisAlignment: MainAxisAlignment.spaceBetween,
-        children: [
-          Container(
-            color: Colors.amber.withOpacity(0.2),
-            padding: EdgeInsets.symmetric(horizontal: 20, vertical: 20),
-            margin: EdgeInsets.symmetric(horizontal: 20, vertical: 20),
-            width: double.maxFinite,
-            child: Text("day, month, year"),
-          ),
-          Expanded(
-              child: Container(
-            color: Colors.red.withOpacity(0.2),
-            padding: EdgeInsets.symmetric(horizontal: 20, vertical: 20),
-            margin: EdgeInsets.symmetric(horizontal: 20, vertical: 20),
-          )),
-          Container(
-            color: Colors.amber.withOpacity(0.2),
-            padding: EdgeInsets.symmetric(horizontal: 20, vertical: 20),
-            margin: EdgeInsets.symmetric(horizontal: 20, vertical: 20),
-            width: double.maxFinite,
-            child: Text("Joriy balans"),
-          ),
-        ],
+    return ChangeNotifierProvider(
+      create: (context) => HomeProvider(),
+      child: Consumer<HomeProvider>(
+        builder: (_, provider, child) => SafeArea(
+          child: Scaffold(body: Container()),
+        ),
       ),
     );
   }

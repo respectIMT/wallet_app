@@ -10,6 +10,10 @@ class Routes implements Coordinate {
   final String name;
   final String path;
 
+  static const mainScreen = Routes._(
+    name: 'main_screen',
+    path: '/pages',
+  );
   static const homePage = Routes._(
     name: 'home_page',
     path: '/home',
