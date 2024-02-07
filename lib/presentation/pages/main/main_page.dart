@@ -21,7 +21,6 @@ class MainPage extends StatelessWidget {
               return Scaffold(
                 body: cubit.pages[cubit.currentPage],
                 bottomNavigationBar: BottomNavigationBar(
-                  elevation: 0,
                   selectedLabelStyle: TextStyle(fontSize: ScreenSize.sp12),
                   unselectedLabelStyle: TextStyle(fontSize: ScreenSize.sp12),
                   currentIndex: cubit.currentPage,
@@ -33,8 +32,8 @@ class MainPage extends StatelessWidget {
                   type: BottomNavigationBarType.fixed,
                   items: [
                     bottomWidget(AppIcons.home, "Asosiy"),
-                    bottomWidget(AppIcons.outlay, "Xarajatlar"),
-                    bottomWidget(AppIcons.profit, "Daromadlar"),
+                    bottomWidget(AppIcons.outlay, "Daromadlar"),
+                    bottomWidget(AppIcons.profit, "Xarajatlar"),
                     bottomWidget(AppIcons.settings, "Sozlamalar"),
                   ],
                 ),

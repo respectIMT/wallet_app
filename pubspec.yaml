@@ -101,27 +101,12 @@ flutter:
   uses-material-design: true
 
   assets:
+    - assets/fonts/
     - assets/icons/
     - assets/images/
     - assets/translations/
 
-  # fonts:
-  #   - family: Ubuntu
-  #     fonts:
-  #       - asset: assets/fonts/Ubuntu-Bold.ttf
-  #         weight: 900
-  #       - asset: assets/fonts/Ubuntu-BoldItalic.ttf
-  #         weight: 800
-  #       - asset: assets/fonts/Ubuntu-Italic.ttf
-  #         weight: 700
-  #       - asset: assets/fonts/Ubuntu-Regular.ttf
-  #         weight: 600
-  #       - asset: assets/fonts/Ubuntu-LightItalic.ttf
-  #         weight: 500
-  #       - asset: assets/fonts/Ubuntu-Light.ttf
-  #         weight: 400
-
-  # fonts:
-  #   - family: Samsung
-  #     fonts:
-  #       - asset: assets/fonts/samsung.ttf
+  fonts:
+    - family: Samsung
+      fonts:
+        - asset: assets/fonts/samsung.ttf

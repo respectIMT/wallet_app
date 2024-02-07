@@ -79,7 +79,7 @@ class AppTheme {
     );
 
     data = ThemeData(
-      fontFamily: 'Inter',
+      fontFamily: 'Samsung',
       textTheme: textTheme,
       backgroundColor: colors.background,
       scaffoldBackgroundColor: colors.background,
@@ -116,7 +116,7 @@ class AppTheme {
         floatingLabelStyle:
             textTheme.bodyText2?.copyWith(color: colors.primary),
         labelStyle: textTheme.bodyText2
-            ?.copyWith(fontSize: 16.sp, color: colors.textSecondary),
+            ?.copyWith(fontSize: 16.sp, color: colors.text900),
         counterStyle: textTheme.caption?.copyWith(color: colors.primary),
         focusedBorder: OutlineInputBorder(
           borderRadius: BorderRadius.circular(8.r),
@@ -135,7 +135,7 @@ class AppTheme {
           borderSide: BorderSide(color: colors.red),
         ),
         helperStyle: textTheme.bodyText2,
-        hintStyle: textTheme.bodyText2?.copyWith(color: colors.textSecondary),
+        hintStyle: textTheme.bodyText2?.copyWith(color: colors.text900),
         errorStyle: textTheme.caption?.copyWith(color: colors.red),
         contentPadding: EdgeInsets.symmetric(
           horizontal: 12.w,
