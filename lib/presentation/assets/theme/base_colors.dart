@@ -5,7 +5,7 @@ abstract class BaseColors {
   const BaseColors();
 
   Color get primary => const Color.fromRGBO(255, 165, 1, 1);
-  Color get secondary => const Color.fromRGBO(255, 255, 255, 1);
+  Color get white => const Color.fromRGBO(255, 255, 255, 1);
   Color get black => const Color.fromRGBO(0, 0, 0, 1);
   Color get hint => const Color.fromARGB(255, 100, 93, 93);
   Color get grey100 => const Color.fromRGBO(239, 239, 240, 1);

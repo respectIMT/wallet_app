@@ -93,10 +93,10 @@ class AppTheme {
         fillColor: colors.primary,
       ),
       tabBarTheme: TabBarTheme(
-        labelColor: colors.secondary,
+        labelColor: colors.white,
         unselectedLabelColor: colors.primary,
         labelStyle: textTheme.subtitle1?.copyWith(
-          color: colors.secondary,
+          color: colors.white,
         ),
         unselectedLabelStyle: textTheme.subtitle2,
       ),

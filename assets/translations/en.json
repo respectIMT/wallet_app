@@ -1,0 +1,44 @@
+{
+    "splash": {
+        "cancel": "Bekor qilish"
+    },
+    "main": {
+        "title": "Asosiy oyna",
+        "enter": "Kirish",
+        "exit": "Chiqish"
+    },
+    "home": {
+        "title": "Asosiy oyna",
+        "enter": "Kirish",
+        "exit": "Chiqish"
+    },
+    "advicement": {
+        "title": "Asosiy oyna",
+        "enter": "Kirish",
+        "exit": "Chiqish"
+    },
+    "investment": {
+        "title": "Strategiya ko'rsatkichlari",
+        "enter": "Kirish",
+        "exit": "Chiqish"
+    },
+    "connect": {
+        "title": "Asosiy oyna",
+        "enter": "Kirish",
+        "exit": "Chiqish"
+    },
+    "others": {
+        "logout": "Tizimdan chiqish",
+        "cancel": "Bekor qilish",
+        "ok": "Tasdiqlash",
+        "title": "Diqqat!",
+        "desc": "Accountingizdan chiqmoqchimisiz?"
+    },
+    "login": {
+        "username": "Username",
+        "password": "Password",
+        "enter": "Tizimga kirish",
+        "error": "Login yoki parol xato kiritildi",
+        "empty_blanks": "Please, fill in the blanks"
+    }
+}

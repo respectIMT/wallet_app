@@ -1,17 +1,22 @@
 import 'package:flutter/material.dart';
-import 'package:provider/provider.dart';
-import 'package:wallet_app/application/splash/splash_provider.dart';
+import 'package:flutter_bloc/flutter_bloc.dart';
+import 'package:wallet_app/application/splash/splash_cubit.dart';
+import 'package:wallet_app/application/splash/splash_state.dart';
 
-class SplashScreen extends StatelessWidget {
-  const SplashScreen({super.key});
+class SplashPage extends StatelessWidget {
+  const SplashPage({super.key});
   @override
   Widget build(BuildContext context) {
-    return ChangeNotifierProvider(
-      create: (context) => SplashProvider(context),
-      child: Consumer<SplashProvider>(
-        builder: (_, provider, child) => const Scaffold(
-          body: SafeArea(
-            child: Column(),
+    return BlocProvider(
+      create: (context) => SplashPageCubit(context),
+      child: BlocListener<SplashPageCubit, SplashPageState>(
+        listener: (context, state) {},
+        child: Builder(
+          builder: (context) => BlocBuilder<SplashPageCubit, SplashPageState>(
+            builder: (context, state) => Builder(builder: (_) {
+              // final cubit = context.read<SplashPageCubit>();
+              return const Scaffold();
+            }),
           ),
         ),
       ),

@@ -50,6 +50,53 @@ class ScreenSize {
   static late double h40;
   static late double h45;
   static late double h50;
+  // radiusSize
+  static late double r1;
+  static late double r2;
+  static late double r3;
+  static late double r4;
+  static late double r5;
+  static late double r6;
+  static late double r8;
+  static late double r10;
+  static late double r12;
+  static late double r14;
+  static late double r15;
+  static late double r16;
+  static late double r18;
+  static late double r20;
+  static late double r24;
+  static late double r25;
+  static late double r30;
+  static late double r32;
+  static late double r35;
+  static late double r40;
+  static late double r45;
+  static late double r50;
+  // scalePixels
+  static late double sp1;
+  static late double sp2;
+  static late double sp3;
+  static late double sp4;
+  static late double sp5;
+  static late double sp6;
+  static late double sp8;
+  static late double sp10;
+  static late double sp12;
+  static late double sp13;
+  static late double sp14;
+  static late double sp15;
+  static late double sp16;
+  static late double sp18;
+  static late double sp20;
+  static late double sp24;
+  static late double sp25;
+  static late double sp30;
+  static late double sp32;
+  static late double sp35;
+  static late double sp40;
+  static late double sp45;
+  static late double sp50;
 
   static Future<void> setSizes() async {
     // widthSize
@@ -99,5 +146,53 @@ class ScreenSize {
     h40 = 40.h;
     h45 = 45.h;
     h50 = 50.h;
+    // radiusSize
+    r1 = 1.r;
+    r2 = 2.r;
+    r3 = 3.r;
+    r4 = 4.r;
+    r5 = 5.r;
+    r6 = 6.r;
+    r8 = 8.r;
+    r10 = 10.r;
+    r12 = 12.r;
+    r14 = 14.r;
+    r15 = 15.r;
+    r16 = 16.r;
+    r18 = 18.r;
+    r20 = 20.r;
+    r24 = 24.r;
+    r25 = 25.r;
+    r30 = 30.r;
+    r32 = 32.r;
+    r35 = 35.r;
+    r40 = 40.r;
+    r45 = 45.r;
+    r50 = 50.r;
+    //scalePixel
+    sp1 = 1.sp;
+    sp2 = 2.sp;
+    sp3 = 3.sp;
+    sp4 = 4.sp;
+    sp5 = 5.sp;
+    sp6 = 6.sp;
+    sp8 = 8.sp;
+    sp10 = 10.sp;
+    sp12 = 12.sp;
+    sp13 = 13.sp;
+    sp14 = 14.sp;
+    sp15 = 15.sp;
+    sp16 = 16.sp;
+    sp18 = 18.sp;
+    sp20 = 20.sp;
+    sp24 = 24.sp;
+    sp25 = 25.sp;
+    sp24 = 24.sp;
+    sp30 = 30.sp;
+    sp32 = 32.sp;
+    sp35 = 35.sp;
+    sp40 = 40.sp;
+    sp45 = 45.sp;
+    sp50 = 50.sp;
   }
 }
