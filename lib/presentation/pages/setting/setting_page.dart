@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
+import 'package:wallet_app/presentation/assets/asset_index.dart';
 import 'package:wallet_app/application/settings/settings_cubit.dart';
 import 'package:wallet_app/application/settings/settings_state.dart';
-import 'package:wallet_app/presentation/assets/asset_index.dart';
 
 class SettingPage extends StatelessWidget {
   const SettingPage({super.key});
