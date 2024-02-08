@@ -1,12 +1,12 @@
 import 'companents/error_view.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
+import '../application/app/app_manager_cubit.dart';
 import 'package:easy_localization/easy_localization.dart';
 import 'package:requests_inspector/requests_inspector.dart';
 import 'package:flutter_easyloading/flutter_easyloading.dart';
 import 'package:wallet_app/presentation/routes/coordinator.dart';
 import 'package:wallet_app/presentation/assets/theme/app_theme.dart';
-import 'package:wallet_app/application/app_manager/app_manager_cubit.dart';
 
 class AppManager extends StatelessWidget {
   const AppManager({super.key});

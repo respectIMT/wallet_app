@@ -21,12 +21,9 @@ class OutlayPage extends StatelessWidget {
                 appBar: AppBar(
                   backgroundColor: AppTheme.colors.white,
                 ),
-                body: Center(
-                  child: TextButton(
-                    onPressed: () {},
-                    child: const Text(
-                      "Outlay",
-                    ),
+                body: const Center(
+                  child: Text(
+                    "Outlay",
                   ),
                 ),
               );

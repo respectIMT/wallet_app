@@ -21,12 +21,9 @@ class ProfitPage extends StatelessWidget {
                 appBar: AppBar(
                   backgroundColor: AppTheme.colors.white,
                 ),
-                body: Center(
-                  child: TextButton(
-                    onPressed: () {},
-                    child: const Text(
-                      "Profit",
-                    ),
+                body: const Center(
+                  child: Text(
+                    "Profit",
                   ),
                 ),
               );
