@@ -1,3 +1,6 @@
+import 'package:dotted_border/dotted_border.dart';
+import 'package:gap/gap.dart';
+
 import 'components/tabbar_menu.dart';
 import 'components/pie_chart.dart';
 import 'package:flutter/material.dart';
@@ -26,17 +29,80 @@ class HomePage extends StatelessWidget {
                 appBar: AppBar(
                   backgroundColor: AppTheme.colors.white,
                 ),
-                body: Center(
+                body: SingleChildScrollView(
                   child: Container(
                     padding: EdgeInsets.symmetric(
-                        vertical: ScreenSize.h10, horizontal: ScreenSize.w50),
+                        vertical: ScreenSize.h10, horizontal: ScreenSize.w15),
                     child: Column(children: [
-                      const TabBarMenu(),
+                      Container(
+                        padding: EdgeInsets.symmetric(
+                            vertical: ScreenSize.h8,
+                            horizontal: ScreenSize.w20),
+                        decoration: BoxDecoration(
+                            color: AppTheme.colors.grey,
+                            borderRadius:
+                                BorderRadius.circular(ScreenSize.r10)),
+                        child: Text(
+                          "10 - fevral, 2024-yil",
+                          textAlign: TextAlign.center,
+                          style: AppTheme.data.textTheme.labelLarge,
+                        ),
+                      ),
+                      Gap(ScreenSize.h10),
+                      Container(
+                          padding:
+                              EdgeInsets.symmetric(horizontal: ScreenSize.w35),
+                          child: const TabBarMenu()),
                       Padding(
                         padding: EdgeInsets.symmetric(
-                            vertical: ScreenSize.h30,
+                            vertical: ScreenSize.h10,
                             horizontal: ScreenSize.w10),
-                        child: PieChartX(dataMapChart: cubit.dataMapChart),
+                        child: DottedBorder(
+                          padding:
+                              EdgeInsets.symmetric(vertical: ScreenSize.h20),
+                          color: AppTheme.colors.grey,
+                          borderType: BorderType.RRect,
+                          dashPattern: const [8, 8],
+                          strokeWidth: ScreenSize.h1,
+                          radius: Radius.circular(ScreenSize.r15),
+                          child: Column(children: [
+                            PieChartX(dataMapChart: cubit.dataMapChart),
+                            Gap(ScreenSize.h25),
+                            Row(
+                                mainAxisAlignment:
+                                    MainAxisAlignment.spaceEvenly,
+                                children: [
+                                  Row(
+                                    children: [
+                                      Container(
+                                        height: ScreenSize.h10,
+                                        width: ScreenSize.w10,
+                                        decoration: BoxDecoration(
+                                          color: AppTheme.colors.green,
+                                          borderRadius: BorderRadius.circular(
+                                              ScreenSize.r2),
+                                        ),
+                                      ),
+                                      Gap(ScreenSize.w5),
+                                      const Text("Daromadlar")
+                                    ],
+                                  ),
+                                  Row(children: [
+                                    Container(
+                                      height: ScreenSize.h10,
+                                      width: ScreenSize.w10,
+                                      decoration: BoxDecoration(
+                                        color: AppTheme.colors.red,
+                                        borderRadius: BorderRadius.circular(
+                                            ScreenSize.r2),
+                                      ),
+                                    ),
+                                    Gap(ScreenSize.w5),
+                                    const Text("Xarajatlar"),
+                                  ]),
+                                ]),
+                          ]),
+                        ),
                       ),
                     ]),
                   ),
