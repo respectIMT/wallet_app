@@ -18,42 +18,39 @@ class TabBarMenu extends StatelessWidget {
       decoration: BoxDecoration(
           color: AppTheme.colors.grey100,
           borderRadius: BorderRadius.circular(ScreenSize.r20)),
-      child: Row(
-        mainAxisAlignment: MainAxisAlignment.spaceBetween,
-        children: [
-          Expanded(
-            child: Container(
-              padding: EdgeInsets.symmetric(
-                  vertical: ScreenSize.h4, horizontal: ScreenSize.w5),
-              decoration: BoxDecoration(
-                  color: AppTheme.colors.white,
-                  borderRadius: BorderRadius.circular(ScreenSize.r25)),
-              child: Text(
-                "Diagramma",
-                textAlign: TextAlign.center,
-                style: AppTheme.data.textTheme.bodySmall!
-                    .copyWith(fontWeight: FontWeight.w600),
-              ),
+      child: Row(mainAxisAlignment: MainAxisAlignment.spaceBetween, children: [
+        Expanded(
+          child: Container(
+            padding: EdgeInsets.symmetric(
+                vertical: ScreenSize.h4, horizontal: ScreenSize.w5),
+            decoration: BoxDecoration(
+                color: AppTheme.colors.white,
+                borderRadius: BorderRadius.circular(ScreenSize.r25)),
+            child: Text(
+              "Diagramma",
+              textAlign: TextAlign.center,
+              style: AppTheme.data.textTheme.bodySmall!
+                  .copyWith(fontWeight: FontWeight.w600),
             ),
           ),
-          Gap(ScreenSize.w5),
-          Expanded(
-            child: Container(
-              padding: EdgeInsets.symmetric(
-                  vertical: ScreenSize.h4, horizontal: ScreenSize.w5),
-              decoration: BoxDecoration(
-                  // color: AppTheme.colors.white,
-                  borderRadius: BorderRadius.circular(ScreenSize.r25)),
-              child: Text(
-                "Statistika",
-                style: AppTheme.data.textTheme.bodySmall!
-                    .copyWith(fontWeight: FontWeight.w600),
-                textAlign: TextAlign.center,
-              ),
+        ),
+        Gap(ScreenSize.w5),
+        Expanded(
+          child: Container(
+            padding: EdgeInsets.symmetric(
+                vertical: ScreenSize.h4, horizontal: ScreenSize.w5),
+            decoration: BoxDecoration(
+                // color: AppTheme.colors.white,
+                borderRadius: BorderRadius.circular(ScreenSize.r25)),
+            child: Text(
+              "Statistika",
+              style: AppTheme.data.textTheme.bodySmall!
+                  .copyWith(fontWeight: FontWeight.w600),
+              textAlign: TextAlign.center,
             ),
           ),
-        ],
-      ),
+        ),
+      ]),
     );
   }
 }
