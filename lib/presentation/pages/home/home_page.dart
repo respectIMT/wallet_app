@@ -98,27 +98,25 @@ class HomePage extends StatelessWidget {
                                     vertical: ScreenSize.h5,
                                     horizontal: ScreenSize.w10),
                                 child: Row(
-                                  mainAxisAlignment:
-                                      MainAxisAlignment.spaceBetween,
-                                  children: [
-                                    Text(
-                                      "Umumiy xarajatlar:",
-                                      style: AppTheme.data.textTheme.bodyMedium!
-                                          .copyWith(
-                                              fontWeight: FontWeight.w600,
-                                              fontSize: ScreenSize.sp13),
-                                    ),
-                                    Text(
-                                      "- 4 340 000 so'm",
-                                      style: AppTheme.data.textTheme.bodyMedium!
-                                          .copyWith(
-                                        fontWeight: FontWeight.w600,
-                                        color: AppTheme.colors.red,
-                                        fontSize: ScreenSize.sp13,
-                                      ),
-                                    ),
-                                  ],
-                                ),
+                                    mainAxisAlignment:
+                                        MainAxisAlignment.spaceBetween,
+                                    children: [
+                                      Text("Umumiy xarajatlar:",
+                                          style: AppTheme
+                                              .data.textTheme.bodyMedium!
+                                              .copyWith(
+                                            fontWeight: FontWeight.w600,
+                                            fontSize: ScreenSize.sp13,
+                                          )),
+                                      Text("- 4 340 000 so'm",
+                                          style: AppTheme
+                                              .data.textTheme.bodyMedium!
+                                              .copyWith(
+                                            fontWeight: FontWeight.w600,
+                                            color: AppTheme.colors.red,
+                                            fontSize: ScreenSize.sp13,
+                                          )),
+                                    ]),
                               ),
                             ]),
                             Container(
@@ -133,22 +131,20 @@ class HomePage extends StatelessWidget {
                                 mainAxisAlignment:
                                     MainAxisAlignment.spaceEvenly,
                                 children: [
-                                  Row(
-                                    children: [
-                                      Container(
-                                        height: ScreenSize.h10,
-                                        width: ScreenSize.w10,
-                                        decoration: BoxDecoration(
-                                          color: AppTheme.colors.green,
-                                          borderRadius: BorderRadius.circular(
-                                            ScreenSize.r2,
-                                          ),
+                                  Row(children: [
+                                    Container(
+                                      height: ScreenSize.h10,
+                                      width: ScreenSize.w10,
+                                      decoration: BoxDecoration(
+                                        color: AppTheme.colors.green,
+                                        borderRadius: BorderRadius.circular(
+                                          ScreenSize.r2,
                                         ),
                                       ),
-                                      Gap(ScreenSize.w5),
-                                      const Text("Daromadlar")
-                                    ],
-                                  ),
+                                    ),
+                                    Gap(ScreenSize.w5),
+                                    const Text("Daromadlar")
+                                  ]),
                                   Row(children: [
                                     Container(
                                       height: ScreenSize.h10,
