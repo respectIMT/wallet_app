@@ -41,8 +41,9 @@ class TabBarMenu extends StatelessWidget {
             padding: EdgeInsets.symmetric(
                 vertical: ScreenSize.h4, horizontal: ScreenSize.w5),
             decoration: BoxDecoration(
-                // color: AppTheme.colors.white,
-                borderRadius: BorderRadius.circular(ScreenSize.r25)),
+              // color: AppTheme.colors.white,
+              borderRadius: BorderRadius.circular(ScreenSize.r25),
+            ),
             child: Text(
               "Statistika",
               style: AppTheme.data.textTheme.bodySmall!

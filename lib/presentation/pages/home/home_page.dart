@@ -72,19 +72,18 @@ class HomePage extends StatelessWidget {
                                         style: AppTheme
                                             .data.textTheme.bodyMedium!
                                             .copyWith(
-                                                fontWeight: FontWeight.w600,
-                                                fontSize: ScreenSize.sp13),
-                                      ),
-                                      Text(
-                                        "+ 7 500 000 so'm",
-                                        style: AppTheme
-                                            .data.textTheme.bodyMedium!
-                                            .copyWith(
                                           fontWeight: FontWeight.w600,
-                                          color: AppTheme.colors.green,
                                           fontSize: ScreenSize.sp13,
                                         ),
                                       ),
+                                      Text("+ 7 500 000 so'm",
+                                          style: AppTheme
+                                              .data.textTheme.bodyMedium!
+                                              .copyWith(
+                                            fontWeight: FontWeight.w600,
+                                            color: AppTheme.colors.green,
+                                            fontSize: ScreenSize.sp13,
+                                          )),
                                     ]),
                               ),
                               Container(
@@ -112,9 +111,10 @@ class HomePage extends StatelessWidget {
                                       "- 4 340 000 so'm",
                                       style: AppTheme.data.textTheme.bodyMedium!
                                           .copyWith(
-                                              fontWeight: FontWeight.w600,
-                                              color: AppTheme.colors.red,
-                                              fontSize: ScreenSize.sp13),
+                                        fontWeight: FontWeight.w600,
+                                        color: AppTheme.colors.red,
+                                        fontSize: ScreenSize.sp13,
+                                      ),
                                     ),
                                   ],
                                 ),
