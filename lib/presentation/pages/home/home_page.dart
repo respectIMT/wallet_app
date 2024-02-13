@@ -76,14 +76,15 @@ class HomePage extends StatelessWidget {
                                           fontSize: ScreenSize.sp13,
                                         ),
                                       ),
-                                      Text("+ 7 500 000 so'm",
-                                          style: AppTheme
-                                              .data.textTheme.bodyMedium!
-                                              .copyWith(
-                                            fontWeight: FontWeight.w600,
-                                            color: AppTheme.colors.green,
-                                            fontSize: ScreenSize.sp13,
-                                          )),
+                                      Text(
+                                        "+ 7 500 000 so'm",
+                                        style: AppTheme
+                                            .data.textTheme.bodyMedium!
+                                            .copyWith(
+                                                fontWeight: FontWeight.w600,
+                                                color: AppTheme.colors.green,
+                                                fontSize: ScreenSize.sp13),
+                                      ),
                                     ]),
                               ),
                               Container(
@@ -122,7 +123,8 @@ class HomePage extends StatelessWidget {
                             ]),
                             Container(
                               padding: EdgeInsets.symmetric(
-                                  vertical: ScreenSize.h25),
+                                vertical: ScreenSize.h25,
+                              ),
                               child: PieChartX(
                                 dataMapChart: cubit.dataMapChart,
                               ),
@@ -139,7 +141,8 @@ class HomePage extends StatelessWidget {
                                         decoration: BoxDecoration(
                                           color: AppTheme.colors.green,
                                           borderRadius: BorderRadius.circular(
-                                              ScreenSize.r2),
+                                            ScreenSize.r2,
+                                          ),
                                         ),
                                       ),
                                       Gap(ScreenSize.w5),
