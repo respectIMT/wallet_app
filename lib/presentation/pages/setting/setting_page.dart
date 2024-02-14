@@ -18,9 +18,7 @@ class SettingPage extends StatelessWidget {
             builder: (context, state) => Builder(builder: (context) {
               // final cubit = context.read<SettingsCubit>();
               return Scaffold(
-                appBar: AppBar(
-                  backgroundColor: AppTheme.colors.white,
-                ),
+                appBar: AppBar(backgroundColor: AppTheme.colors.white),
                 body: const Center(
                   child: Text(
                     "Setting",
