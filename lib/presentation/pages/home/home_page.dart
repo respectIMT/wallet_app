@@ -29,8 +29,7 @@ class HomePage extends StatelessWidget {
                   title: Text(
                     "10 - fevral, 2024-yil",
                     textAlign: TextAlign.center,
-                    style: AppTheme.data.textTheme.titleMedium!
-                        .copyWith(color: AppTheme.colors.primary),
+                    style: AppTheme.data.textTheme.titleMedium!.copyWith(color: AppTheme.colors.primary),
                   ),
                   backgroundColor: AppTheme.colors.white,
                   centerTitle: true,
