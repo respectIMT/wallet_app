@@ -27,7 +27,7 @@ class HomePage extends StatelessWidget {
               return Scaffold(
                 appBar: AppBar(
                   title: Text(
-                    "10 - fevral, 2024-yil",
+                    "20 - may, 2024-yil",
                     textAlign: TextAlign.center,
                     style: AppTheme.data.textTheme.titleMedium!.copyWith(color: AppTheme.colors.primary),
                   ),
@@ -76,7 +76,7 @@ class HomePage extends StatelessWidget {
                                         ),
                                       ),
                                       Text(
-                                        "+ 7 500 000 so'm",
+                                        "+ 75 300 000 so'm",
                                         style: AppTheme
                                             .data.textTheme.bodyMedium!
                                             .copyWith(
@@ -107,7 +107,7 @@ class HomePage extends StatelessWidget {
                                             fontWeight: FontWeight.w600,
                                             fontSize: ScreenSize.sp13,
                                           )),
-                                      Text("- 4 340 000 so'm",
+                                      Text("- 64 650 000 so'm",
                                           style: AppTheme
                                               .data.textTheme.bodyMedium!
                                               .copyWith(
@@ -190,7 +190,7 @@ class HomePage extends StatelessWidget {
                                 style: AppTheme.data.textTheme.labelLarge,
                               ),
                               Text(
-                                "3 160 000 so'm",
+                                "10 650 000 so'm",
                                 textAlign: TextAlign.center,
                                 style: AppTheme.data.textTheme.labelLarge,
                               ),

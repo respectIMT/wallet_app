@@ -19,7 +19,7 @@ class PieChartX extends StatelessWidget {
       colorList: AppColors.colorsList,
       chartType: ChartType.ring,
       ringStrokeWidth: ScreenSize.w30,
-      centerText: "Fevral-2024",
+      centerText: "May-2024",
       centerTextStyle: AppTheme.data.textTheme.bodyMedium,
       initialAngleInDegree: 90,
       legendOptions: const LegendOptions(
