@@ -27,7 +27,7 @@ class HomePage extends StatelessWidget {
               return Scaffold(
                 appBar: AppBar(
                   title: Text(
-                    "20 - may, 2024-yil",
+                    "iyun, 2024-yil",
                     textAlign: TextAlign.center,
                     style: AppTheme.data.textTheme.titleMedium!.copyWith(color: AppTheme.colors.primary),
                   ),
