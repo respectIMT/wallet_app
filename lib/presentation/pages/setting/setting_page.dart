@@ -20,9 +20,7 @@ class SettingPage extends StatelessWidget {
               return Scaffold(
                 appBar: AppBar(backgroundColor: AppTheme.colors.white),
                 body: const Center(
-                  child: Text(
-                    "Setting",
-                  ),
+                  child: Text("Setting"),
                 ),
               );
             }),
