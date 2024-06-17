@@ -35,9 +35,11 @@ class MainPage extends StatelessWidget {
                       bottomWidget(AppIcons.outlay, "Daromadlar"),
                       bottomWidget(AppIcons.profit, "Xarajatlar"),
                       bottomWidget(AppIcons.settings, "Sozlamalar"),
-                    ]),
-              );
-            }),
+                    ]
+                  ),
+                );
+              }
+            ),
           ),
         ),
       ),
@@ -45,16 +47,14 @@ class MainPage extends StatelessWidget {
   }
 
   BottomNavigationBarItem bottomWidget(String activIcon, String label) =>
-      BottomNavigationBarItem(
-          activeIcon: SvgPicture.asset(
-            color: AppTheme.colors.primary,
-            activIcon,
-            height: ScreenSize.h20,
-          ),
+    BottomNavigationBarItem(
+      activeIcon: SvgPicture.asset(color: AppTheme.colors.primary,
+        activIcon,height: ScreenSize.h20),
           icon: SvgPicture.asset(
             activIcon,
             height: ScreenSize.h20,
           ),
           backgroundColor: AppTheme.colors.white,
-          label: label);
+          label: label
+    );
 }
