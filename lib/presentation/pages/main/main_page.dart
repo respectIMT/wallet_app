@@ -46,15 +46,10 @@ class MainPage extends StatelessWidget {
     );
   }
 
-  BottomNavigationBarItem bottomWidget(String activIcon, String label) =>
-    BottomNavigationBarItem(
-      activeIcon: SvgPicture.asset(color: AppTheme.colors.primary,
-        activIcon,height: ScreenSize.h20),
-          icon: SvgPicture.asset(
-            activIcon,
-            height: ScreenSize.h20,
-          ),
-          backgroundColor: AppTheme.colors.white,
-          label: label
-    );
+  BottomNavigationBarItem bottomWidget(String activIcon, String label) => BottomNavigationBarItem(
+    activeIcon: SvgPicture.asset(activIcon,color: AppTheme.colors.primary,height: ScreenSize.h20),
+    icon: SvgPicture.asset(activIcon,height: ScreenSize.h20),
+    backgroundColor: AppTheme.colors.white,
+    label: label
+  );
 }
