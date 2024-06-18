@@ -36,14 +36,14 @@ class AppsObject {
     );
 
   Map<String, dynamic> toJson() => {
-        "id": id,
-        "name": name,
-        "description": description,
-        "url": url,
-        "icon": icon,
-        "status": status,
-        "created_at": createdAt,
-        "updated_at": updatedAt,
-        "is_active": isActive,
-      };
+    "id": id,
+    "name": name,
+    "description": description,
+    "url": url,
+    "icon": icon,
+    "status": status,
+    "created_at": createdAt,
+    "updated_at": updatedAt,
+    "is_active": isActive,
+  };
 }
