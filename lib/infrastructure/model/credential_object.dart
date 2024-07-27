@@ -22,9 +22,9 @@ class CredentialObject {
       );
 
   Map<String, dynamic> toJson() => {
-        "app_id": appId,
-        "login": login,
-        "password": password,
-        "super_password": superPassword,
-      };
+      "app_id": appId,
+      "login": login,
+      "password": password,
+      "super_password": superPassword,
+    };
 }

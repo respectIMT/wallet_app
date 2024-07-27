@@ -24,26 +24,26 @@ class AppsObject {
     required this.isActive,
   });
   factory AppsObject.fromJson(Map<String, dynamic> json) => AppsObject(
-        id: json['id'] ?? 0,
-        name: json['name'] ?? "",
-        description: json['description'] ?? "",
-        url: json['url'] ?? "",
-        icon: json['icon'] ?? "",
-        status: json['status'] ?? false,
-        createdAt: json['created_at'] ?? "",
-        updatedAt: json['updated_at'] ?? "",
-        isActive: json['is_active'] ?? false,
-      );
+      id: json['id'] ?? 0,
+      name: json['name'] ?? "",
+      description: json['description'] ?? "",
+      url: json['url'] ?? "",
+      icon: json['icon'] ?? "",
+      status: json['status'] ?? false,
+      createdAt: json['created_at'] ?? "",
+      updatedAt: json['updated_at'] ?? "",
+      isActive: json['is_active'] ?? false,
+    );
 
   Map<String, dynamic> toJson() => {
-        "id": id,
-        "name": name,
-        "description": description,
-        "url": url,
-        "icon": icon,
-        "status": status,
-        "created_at": createdAt,
-        "updated_at": updatedAt,
-        "is_active": isActive,
-      };
+    "id": id,
+    "name": name,
+    "description": description,
+    "url": url,
+    "icon": icon,
+    "status": status,
+    "created_at": createdAt,
+    "updated_at": updatedAt,
+    "is_active": isActive,
+  };
 }

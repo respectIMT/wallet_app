@@ -22,9 +22,7 @@ class ProfitPage extends StatelessWidget {
                   backgroundColor: AppTheme.colors.white,
                 ),
                 body: const Center(
-                  child: Text(
-                    "Profit",
-                  ),
+                  child: Text("Profit"),
                 ),
               );
             }),

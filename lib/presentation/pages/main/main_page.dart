@@ -21,42 +21,35 @@ class MainPage extends StatelessWidget {
               return Scaffold(
                 body: cubit.pages[cubit.currentPage],
                 bottomNavigationBar: BottomNavigationBar(
-                  selectedLabelStyle: TextStyle(fontSize: ScreenSize.sp12),
-                  unselectedLabelStyle: TextStyle(fontSize: ScreenSize.sp12),
-                  currentIndex: cubit.currentPage,
-                  onTap: cubit.ontap,
-                  showSelectedLabels: true,
-                  unselectedItemColor: AppTheme.colors.black,
-                  fixedColor: AppTheme.colors.primary,
-                  backgroundColor: AppTheme.colors.white,
-                  type: BottomNavigationBarType.fixed,
-                  items: [
-                    bottomWidget(AppIcons.home, "Asosiy"),
-                    bottomWidget(AppIcons.outlay, "Daromadlar"),
-                    bottomWidget(AppIcons.profit, "Xarajatlar"),
-                    bottomWidget(AppIcons.settings, "Sozlamalar"),
-                  ],
-                ),
-              );
-            }),
+                    selectedLabelStyle: TextStyle(fontSize: ScreenSize.sp12),
+                    unselectedLabelStyle: TextStyle(fontSize: ScreenSize.sp12),
+                    currentIndex: cubit.currentPage,
+                    onTap: cubit.ontap,
+                    showSelectedLabels: true,
+                    unselectedItemColor: AppTheme.colors.black,
+                    fixedColor: AppTheme.colors.primary,
+                    backgroundColor: AppTheme.colors.white,
+                    type: BottomNavigationBarType.fixed,
+                    items: [
+                      bottomWidget(AppIcons.home, "Asosiy"),
+                      bottomWidget(AppIcons.outlay, "Daromadlar"),
+                      bottomWidget(AppIcons.profit, "Xarajatlar"),
+                      bottomWidget(AppIcons.settings, "Sozlamalar"),
+                    ]
+                  ),
+                );
+              }
+            ),
           ),
         ),
       ),
     );
   }
 
-  BottomNavigationBarItem bottomWidget(String activIcon, String label) =>
-      BottomNavigationBarItem(
-        activeIcon: SvgPicture.asset(
-          color: AppTheme.colors.primary,
-          activIcon,
-          height: ScreenSize.h20,
-        ),
-        icon: SvgPicture.asset(
-          activIcon,
-          height: ScreenSize.h20,
-        ),
-        backgroundColor: AppTheme.colors.white,
-        label: label,
-      );
+  BottomNavigationBarItem bottomWidget(String activIcon, String label) => BottomNavigationBarItem(
+    activeIcon: SvgPicture.asset(activIcon,color: AppTheme.colors.primary,height: ScreenSize.h20),
+    icon: SvgPicture.asset(activIcon,height: ScreenSize.h20),
+    backgroundColor: AppTheme.colors.white,
+    label: label
+  );
 }

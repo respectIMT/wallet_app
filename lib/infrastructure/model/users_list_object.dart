@@ -33,13 +33,13 @@ class UsersObject {
       );
 
   Map<String, dynamic> toJson() => {
-        "id": id,
-        "username": username,
-        "status": status,
-        "created_at": createdAt,
-        "updated_at": updatedAt,
-        "phone": phone,
-        "fullname": fullname,
-        "is_active": isActive,
-      };
+    "id": id,
+    "username": username,
+    "status": status,
+    "created_at": createdAt,
+    "updated_at": updatedAt,
+    "phone": phone,
+    "fullname": fullname,
+    "is_active": isActive,
+  };
 }

@@ -22,9 +22,7 @@ class OutlayPage extends StatelessWidget {
                   backgroundColor: AppTheme.colors.white,
                 ),
                 body: const Center(
-                  child: Text(
-                    "Outlay",
-                  ),
+                  child: Text("Outlay"),
                 ),
               );
             }),
