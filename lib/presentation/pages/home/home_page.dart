@@ -26,8 +26,9 @@ class HomePage extends StatelessWidget {
               final cubit = context.read<HomePageCubit>();
               return Scaffold(
                 appBar: AppBar(
+                  elevation: 0,
                   title: Text(
-                    "iyun, 2024-yil",
+                    "Avgust, 2024-yil",
                     textAlign: TextAlign.center,
                     style: AppTheme.data.textTheme.titleMedium!.copyWith(color: AppTheme.colors.primary),
                   ),
@@ -196,11 +197,11 @@ class HomePage extends StatelessWidget {
                               ),
                             ]),
                       ),
-                    ]),
+                    ],),
                   ),
                 ),
               );
-            }),
+            },),
           ),
         ),
       ),
