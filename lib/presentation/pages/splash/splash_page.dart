@@ -13,10 +13,12 @@ class SplashPage extends StatelessWidget {
         listener: (context, state) {},
         child: Builder(
           builder: (context) => BlocBuilder<SplashPageCubit, SplashPageState>(
-            builder: (context, state) => Builder(builder: (_) {
-              // final cubit = context.read<SplashPageCubit>();
-              return const Scaffold();
-            }),
+            builder: (context, state) => Builder(
+              builder: (_) {
+                // final cubit = context.read<SplashPageCubit>();
+                return const Scaffold();
+              },
+            ),
           ),
         ),
       ),
