@@ -1,5 +1,4 @@
-List<UserObject> usersFromMap(List list) =>
-    List<UserObject>.from(list.map((item) => UserObject.fromJson(item)));
+List<UserObject> usersFromMap(List list) => List<UserObject>.from(list.map((item) => UserObject.fromJson(item)));
 
 class UserObject {
   int id;

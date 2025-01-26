@@ -1,5 +1,4 @@
-List<CredentialObject> itemFromMap(List list) => List<CredentialObject>.from(
-    list.map((items) => CredentialObject.fromJson(items)));
+List<CredentialObject> itemFromMap(List list) => List<CredentialObject>.from(list.map((items) => CredentialObject.fromJson(items)));
 
 class CredentialObject {
   int appId;
