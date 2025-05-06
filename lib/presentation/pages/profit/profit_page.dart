@@ -15,17 +15,19 @@ class ProfitPage extends StatelessWidget {
         listener: (context, state) {},
         child: Builder(
           builder: (context) => BlocBuilder<ProfitCubit, ProfitState>(
-            builder: (context, state) => Builder(builder: (context) {
-              // final cubit = context.read<ProfitCubit>();
-              return Scaffold(
-                appBar: AppBar(
-                  backgroundColor: AppTheme.colors.white,
-                ),
-                body: const Center(
-                  child: Text("Profit"),
-                ),
-              );
-            }),
+            builder: (context, state) => Builder(
+              builder: (context) {
+                // final cubit = context.read<ProfitCubit>();
+                return Scaffold(
+                  appBar: AppBar(
+                    backgroundColor: AppTheme.colors.white,
+                  ),
+                  body: const Center(
+                    child: Text("Profit"),
+                  ),
+                );
+              },
+            ),
           ),
         ),
       ),

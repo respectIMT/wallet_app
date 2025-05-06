@@ -1,6 +1,5 @@
 import 'coordinate.dart';
 
-/// A set of routes for the entire app.
 class Routes implements Coordinate {
   const Routes._({
     required this.name,
